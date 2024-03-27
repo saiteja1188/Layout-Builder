@@ -1,10 +1,8 @@
-// Write your code here
-
 import './index.css'
 
 const Footer = () => (
   <div className="footer-container">
-    <h1 className="footer-heading">Footer</h1>
+    <h1 className="footer-text">Footer</h1>
   </div>
 )
 

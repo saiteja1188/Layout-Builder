@@ -1,17 +1,18 @@
-/* Write your CSS here */
-.configuration-controller-container {
+.configuration-controls-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: #475569;
 }
-@media screen and (max-width: 768px) {
-  .configuration-controller-container {
+
+@media screen and (min-width: 768px) {
+  .configuration-controls-container {
     align-items: center;
   }
 }
-.configuration-controller-content {
+
+.responsive-controls-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -19,36 +20,41 @@
   width: 80%;
   max-width: 550px;
 }
-@media screen and (max-width: 768px) {
-  .configuration-controller-content {
+
+@media screen and (min-width: 768px) {
+  .responsive-controls-container {
     max-width: 1140px;
   }
 }
-.configuration-controller-heading {
-  font-family: roboto;
-  font-size: 32px;
+
+.layout-heading {
   color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 600;
 }
-@media screen and (max-width: 768px) {
-  .configuration-controller-heading {
+
+@media screen and (min-width: 768px) {
+  .layout-heading {
     font-size: 48px;
   }
 }
+
 .checkbox-group {
   display: flex;
   flex-direction: column;
+}
+
+.label-text {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: 12px;
 }
 
 .checkbox-container {
   display: flex;
   align-items: center;
   margin-bottom: 20px;
-}
-
-.label {
-  font-family: roboto;
-  font-size: 16px;
-  font-weight: 500;
-  color: #ffffff;
-  margin-left: 10px;
 }
